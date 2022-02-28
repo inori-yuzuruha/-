@@ -144,7 +144,7 @@ int getCard()
 		printf("内存申请失败！");
 		return FALSE;
 	}
-
+	
 	//获取卡信息
 	if (readCard(pCard,CARDPATH)== FALSE)
 	{
